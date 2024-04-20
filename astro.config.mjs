@@ -37,7 +37,8 @@ export default defineConfig({
 		remarkRehype: {
 			footnoteLabelProperties: {
 				className: ['']
-			}
+			},
+            footnoteLabel: 'References:'
 		}
 	},
 	prefetch: true,

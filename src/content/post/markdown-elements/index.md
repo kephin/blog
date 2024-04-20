@@ -4,6 +4,11 @@ description: "This post is for testing and listing a number of different markdow
 publishDate: "22 Feb 2023"
 updatedDate: 22 Jan 2024
 tags: ["test", "markdown"]
+coverImage:
+  src: "./cover.png"
+  alt: "Astro build wallpaper"
+draft: true
+ogImage: "/favicon/favicon.png"
 ---
 
 ## This is a H2 Heading
@@ -28,7 +33,13 @@ tags: ["test", "markdown"]
 
 **This is bold text**
 
+__This is bold text__
+
+*This is italic text*
+
 _This is italic text_
+
+~Strikethroughdsfsd~
 
 ~~Strikethrough~~
 
